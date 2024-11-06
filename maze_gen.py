@@ -153,7 +153,7 @@ class MazeGenerator:
 if __name__ == '__main__':
     maze_gen = MazeGenerator(8, 16)
     
-    for i in range(1,62):
+    for i in range(1, 63):
         maze_gen.generate()
         maze_gen.save_bmp(f'maze-{i}')
         maze_gen.save_text(f'maze-{i}')
